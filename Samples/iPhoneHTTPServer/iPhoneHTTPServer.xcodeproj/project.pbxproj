@@ -401,7 +401,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = iPhoneHTTPServer_Prefix.pch;
 				INFOPLIST_FILE = "iPhoneHTTPServer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = iPhoneHTTPServer;
 			};
 			name = Debug;
@@ -411,7 +411,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = iPhoneHTTPServer_Prefix.pch;
 				INFOPLIST_FILE = "iPhoneHTTPServer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = iPhoneHTTPServer;
 			};
 			name = Release;
