@@ -441,6 +441,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = SecureHTTPServer_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "/usr/local/opt/openssl@1.1/lib";
 				PRODUCT_NAME = SecureHTTPServer;
 			};
 			name = Debug;
@@ -450,6 +451,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = SecureHTTPServer_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "/usr/local/opt/openssl@1.1/lib";
 				PRODUCT_NAME = SecureHTTPServer;
 			};
 			name = Release;
