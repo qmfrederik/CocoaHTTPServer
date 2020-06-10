@@ -1,5 +1,10 @@
 language: objective-c
 
+addons:
+  homebrew:
+    packages:
+    - openssl
+
 script:
   - xcodebuild build -project Samples/DynamicServer/DynamicServer.xcodeproj -scheme DynamicServer
   - xcodebuild build -project Samples/iPhoneHTTPServer/iPhoneHTTPServer.xcodeproj -scheme iPhoneHTTPServer -sdk iphonesimulator
